@@ -7,7 +7,7 @@
   <string name="c_app_icon_name">Кальк++</string>
   <string name="c_app_settings">Налаштування</string>
   <string name="c_syntax_error">Помилка</string>
-  <string name="c_result_copied">Result has been copied to the clipboard!</string>
+  <string name="c_result_copied">Результат скопійовано у буфер обміну!</string>
   <string name="c_settings">Налаштування</string>
   <string name="c_help">Допомога</string>
   <string name="c_vars_and_constants">Змінні та константи</string>
@@ -93,7 +93,7 @@
   <string name="c_calc_color_display_summary">Включити/вимкнути підсвітку у редакторі калькулятора</string>
   <string name="c_calc_theme_summary">Встановити тему калькулятора</string>
   <string name="c_clear_history">Очистити історію</string>
-  <string name="c_toggle_datetime">Show/hide date</string>
+  <string name="c_toggle_datetime">Показати/сховати дату</string>
   <string name="c_simplify_instead_of_numeric">наступні сталі невизначені: {0}!</string>
   <string name="p_grouping_separator_no">Не використовувати роздільник класів</string>
   <string name="p_grouping_separator_apostrophe">Апостроф (\')</string>
@@ -105,9 +105,9 @@
   <string name="c_calc_layout">Розкладка</string>
   <string name="p_layout_cellphone">Наукова (телефон)</string>
   <string name="p_layout_calculator">Наукова</string>
-  <string name="p_layout_calculator_mobile">Scientific (Big buttons)</string>
+  <string name="p_layout_calculator_mobile">Наукова (Великі кнопки)</string>
   <string name="p_layout_simple">Проста</string>
-  <string name="p_layout_simple_mobile">Simple (Big buttons)</string>
+  <string name="p_layout_simple_mobile">Проста (Великі кнопки)</string>
   <string name="c_calc_layout_summary">Задає розкладку кнопок</string>
   <string name="c_calc_haptic_feedback_title">Вібрація при натисканні</string>
   <string name="c_calc_haptic_feedback_summary">Включити/виключити вібрацію при натисканні</string>
@@ -121,9 +121,9 @@
   <string name="c_plot_graph">Графік</string>
   <string name="c_min_x_value">Від</string>
   <string name="c_max_x_value">До</string>
-  <string name="c_swipe_distance">Відстань розмаху (свайпу) для кнопок</string>
+  <string name="c_swipe_distance">Відстань ковзання пальцем для кнопок</string>
   <string name="c_swipe_distance_summary">Задає відстань розмаху для кнопок, які підтримують додаткові дії для
-		свайпу
+		ковзання
 	</string>
   <string name="c_comment">Коментар</string>
   <string name="c_history_item_saved">Збережено</string>
@@ -132,7 +132,7 @@
   <string name="c_history_item_status">Статус:</string>
   <string name="c_history_item_comment">Коментар:</string>
   <string name="c_use">Використовувати</string>
-  <string name="c_use_short">Вик.</string>
+  <string name="c_use_short">Викор.</string>
   <string name="c_copy_expression">Копіювати вираз</string>
   <string name="c_copy_result">Копіювати результат</string>
   <string name="c_history_expression">Значення</string>
@@ -161,7 +161,7 @@
   <string name="c_clear_billing_info_title">Очистити інформацію про купівлю</string>
   <string name="c_warning">Увага</string>
   <string name="c_error">Помилка</string>
-  <string name="c_billing_error">Біллінг не підтримується: ви повинні мати обліковий запис Google Checkout, пов’язаний
+  <string name="c_billing_error">Оплата не підтримується: ви повинні мати обліковий запис Google Checkout, пов’язаний
 		з вашим обліковим записом Google і мати підключення до Інтернету.
 	</string>
   <string name="c_calc_ad_free_title">Підтримайте проект</string>
@@ -177,11 +177,11 @@
 		коментар або \nобговоріть програму \nна
 		<a href="http://facebook.com/calculatorpp">Facebook</a>
 	</string>
-  <string name="c_notespp_announce_text">Good news - I just released new application for Android called
+  <string name="c_notespp_announce_text">Чудові новини - Я вже випустив нову програму для Андроїду під назвою
 		<a href="https://play.google.com/store/apps/details?id=org.solovyev.android.notes">Notes++</a>.\n
-		If you\'re interesting in fast and easy way of making notes please follow the
-		<a href="https://play.google.com/store/apps/details?id=org.solovyev.android.notes">link</a>
-		and try Notes++!
+		Якщо вас цікавить швидкий та простий спосіб створення нотаток, то, будь ласка, скористайтеся
+		<a href="https://play.google.com/store/apps/details?id=org.solovyev.android.notes">посиланням</a>
+		та спробуйте Notes++!
 	</string>
   <string name="c_angle_units_changed_to">Одиниці виміру кутів змінено на \'%s\'!</string>
   <string name="c_numeral_base_changed_to">Система числення змінена на \'%s\'!</string>
@@ -190,133 +190,133 @@
   <string name="convert_to_hex">Перетворити в hex</string>
   <string name="convert_to_bin">Перетворити в bin</string>
   <string name="convert_to_dec">Перетворити в dec</string>
-  <string name="editor">Editor</string>
-  <string name="result">Result</string>
-  <string name="other">Other</string>
-  <string name="derivatives">Derivatives/Integrals</string>
-  <string name="crashed">Calculator++ has crashed…</string>
-  <string name="crash_dialog_title">Calculator++ crash report</string>
+  <string name="editor">Редактор</string>
+  <string name="result">Результат</string>
+  <string name="other">Інше</string>
+  <string name="derivatives">Похідні/Інтеграли</string>
+  <string name="crashed">Калькулятор++ зазнав краху…</string>
+  <string name="crash_dialog_title">Звіт про збій у Калькулятор++</string>
   <string name="crash_dialog_text">
-		Unfortunately, Calculator++ has crashed.\n\n
-		In order to fix the problem we need some information about it. It\'s highly recommended to send crash report via
-		email (after pressing \'Ok\' button you will see all sent data in the new window).\n\n
-		Do you want to send crash report?
+		Несподівано Калькулятор++ зазнав краху.\n\n
+		Для виправлення проблеми нам потрібна деяка інформації про це. Наполегливо рекомендуємо надіслати звіт про крах
+		через електронну пошту (після натискання кнопки \'Ok\' ви побачите усі дані для відпраки у новому вікні).\n\n
+		Ви хочете надіслати звіт про крах?
 	</string>
-  <string name="prefs_graph_screen_title">Graph settings</string>
-  <string name="prefs_graph_interpolate_function">Interpolate function\'s graph</string>
-  <string name="prefs_graph_interpolate_function_summary">If checked cubic interpolation will be used in function
-		graph drawing
+  <string name="prefs_graph_screen_title">Параметри графіків</string>
+  <string name="prefs_graph_interpolate_function">Інтерполювати графіки функцій</string>
+  <string name="prefs_graph_interpolate_function_summary">Якщо обрано, то кубічна інтерполяція використовується для
+		зображення графіків функцій
 	</string>
-  <string name="prefs_graph_real_color_title">Color of real part of functions graph</string>
-  <string name="prefs_graph_real_color_summary">Sets color of real part functions graph</string>
-  <string name="prefs_graph_imag_color_title">Color of imaginary part of functions graph</string>
-  <string name="prefs_graph_imag_color_summary">Sets color of imaginary part functions graph</string>
-  <string name="p_white_line_color">White</string>
-  <string name="p_grey_line_color">Grey</string>
-  <string name="p_red_line_color">Red</string>
-  <string name="p_blue_line_color">Blue</string>
-  <string name="p_green_line_color">Green</string>
-  <string name="c_function_name">Name</string>
-  <string name="c_function_value">Value</string>
-  <string name="c_function_description">Description</string>
-  <string name="c_function_parameters">Parameters</string>
-  <string name="function_create_function">Create function</string>
-  <string name="function_edit_function">Edit function</string>
-  <string name="function_name_is_not_valid">Name of function is not valid: name must start with letter, can contain
-		letters, digits and underscore.
+  <string name="prefs_graph_real_color_title">Колір графіка дійсної частини функції</string>
+  <string name="prefs_graph_real_color_summary">Задає колір графіка дійсної частини фуункції</string>
+  <string name="prefs_graph_imag_color_title">Колір графіка уявної частини функції</string>
+  <string name="prefs_graph_imag_color_summary">Задає колір графіка уявної частини функції</string>
+  <string name="p_white_line_color">Білий</string>
+  <string name="p_grey_line_color">Сірий</string>
+  <string name="p_red_line_color">Червоний</string>
+  <string name="p_blue_line_color">Синій</string>
+  <string name="p_green_line_color">Зелений</string>
+  <string name="c_function_name">Назва</string>
+  <string name="c_function_value">Значення</string>
+  <string name="c_function_description">Опис</string>
+  <string name="c_function_parameters">Параметри</string>
+  <string name="function_create_function">Створити функцію</string>
+  <string name="function_edit_function">Редагувати функцію</string>
+  <string name="function_name_is_not_valid">Недійсна назва функції: назва повинна починатися з букви і може містити
+		букви, цифкри та знак підкреслення.
 	</string>
-  <string name="function_already_exists">Function with same name already exists!</string>
-  <string name="function_is_empty">Function body could not be empty!</string>
-  <string name="function_param_not_empty">Function parameter should not be empty!</string>
-  <string name="function_removal_confirmation_question">Do you really want to delete \'%s\' function?</string>
-  <string name="empty_function_error">Unable to create empty function!</string>
-  <string name="do_not_show_messages_in_session">Do not show this message until next session</string>
-  <string name="calculation_messages_dialog_title">Calculator++ warning</string>
-  <string name="arithmetic_error_while_plot">Arithmetic error occurred while plotting: %s</string>
+  <string name="function_already_exists">Функція з таким ім'ям вже існує!</string>
+  <string name="function_is_empty">Тіло функції не повинно бути порожнім!</string>
+  <string name="function_param_not_empty">Параметр функції не повинен бути порожнім!</string>
+  <string name="function_removal_confirmation_question">Ви справді хочете вилучити функцію \'%s\'?</string>
+  <string name="empty_function_error">Не можливо створити порожню функцію!</string>
+  <string name="do_not_show_messages_in_session">Не показувати це повідомлення наступної сесії</string>
+  <string name="calculation_messages_dialog_title">Попередження від Калькулятор++</string>
+  <string name="arithmetic_error_while_plot">Арифметична помилка трапилася при побудові графіка: %s</string>
   <string name="ok">OK</string>
-  <string name="p_show_calculation_messages_dialog_title">Show calculation messages in dialog</string>
-  <string name="p_show_calculation_messages_dialog_summary">If turned on if any message occurred while calculations
-		special dialog will be shown
+  <string name="p_show_calculation_messages_dialog_title">Показувати обчислення у діалозі</string>
+  <string name="p_show_calculation_messages_dialog_summary">Якщо увімкнено, то будь-які повідомлення, що виникатимуть при обчисленнях,
+		будуть показані у спеціальному вікні
 	</string>
-  <string name="fix">Fix</string>
-  <string name="p_preferred_numeral_base_title">Default numeral system</string>
-  <string name="p_preferred_numeral_base_summary">Defines the default numeral system</string>
-  <string name="preferred_numeral_base_message">Default numeral system \'%1$s\' differs from current \'%2$s\'. Forgot
-		to change back?
+  <string name="fix">Виправити</string>
+  <string name="p_preferred_numeral_base_title">Типова система числення</string>
+  <string name="p_preferred_numeral_base_summary">Визначає типову систему числення</string>
+  <string name="preferred_numeral_base_message">Типова система числення \'%1$s\' відрізняється від поточної \'%2$s\'. Забути її
+		та повернутися до типової?
 	</string>
-  <string name="p_preferred_angle_units_title">Default angle units</string>
-  <string name="p_preferred_angle_units_summary">Defines the default angle units</string>
-  <string name="preferred_angle_units_message">Default angle units \'%1$s\' differs from current \'%2$s\'. Forgot to
-		change back?
+  <string name="p_preferred_angle_units_title">Типові одиниці виміювання кутів</string>
+  <string name="p_preferred_angle_units_summary">Визначає типові одиниці вимірювання кутів</string>
+  <string name="preferred_angle_units_message">Типові одиниці вимірювання кутів \'%1$s\' відрізняються від поточних \'%2$s\'. Забути їх
+		та повернутися до типових?
 	</string>
   <string name="close">Close</string>
-  <string name="c_app_widget_3x3_name">Calculator++ Widget (3x3)</string>
-  <string name="c_app_widget_3x4_name">Calculator++ Widget (3x4)</string>
-  <string name="c_app_widget_4x4_name">Calculator++ Widget (4x4)</string>
-  <string name="c_app_widget_4x5_name">Calculator++ Widget (4x5)</string>
-  <string name="open_onscreen_calculator">Click to open calculator in window mode</string>
-  <string name="prefs_onscreen_title">Calculator (in separate window) settings</string>
-  <string name="prefs_onscreen_start_on_boot_title">Start on boot</string>
-  <string name="prefs_onscreen_start_on_boot_summary">If turned on Calculator++ will appear in notification bar after
-		device boot
+  <string name="c_app_widget_3x3_name">Калькулятор++ Віджет (3x3)</string>
+  <string name="c_app_widget_3x4_name">Калькулятор++ Віджет (3x4)</string>
+  <string name="c_app_widget_4x4_name">Калькулятор++ Віджет (4x4)</string>
+  <string name="c_app_widget_4x5_name">Калькулятор++ Віджет (4x5)</string>
+  <string name="open_onscreen_calculator">Натисніть, щоб відкрити калькулятор у режимі вікна</string>
+  <string name="prefs_onscreen_title">Налаштування калькулятора (у окремому вікні)</string>
+  <string name="prefs_onscreen_start_on_boot_title">Запуск при завантаженні</string>
+  <string name="prefs_onscreen_start_on_boot_summary">Якщо увімкнено, то Калькулятор++ з'являтиметься у рядку сповіщень після
+		 перевантаження пристрою
 	</string>
-  <string name="prefs_onscreen_show_app_icon_title">Show separate icon (require reboot)</string>
-  <string name="prefs_onscreen_show_app_icon_summary">If turned on second icon will be shown in applications\' list
+  <string name="prefs_onscreen_show_app_icon_title">Показувати окрему піктограму (потрібне перевантаження)</string>
+  <string name="prefs_onscreen_show_app_icon_summary">Якщо увімкнено, то друга піктограма появиться серед списку програм
 	</string>
-  <string name="cpp_onscreen_remove_icon_message">You can remove second icon in applications\' list from application
-		settings or by pressing next button
+  <string name="cpp_onscreen_remove_icon_message">Ви можете вилучити другу піктограму із списку програм у налаштуваннях
+		програми або натиснувши кнопку Далі
 	</string>
-  <string name="cpp_this_change_may_require_reboot">This change may require reboot</string>
-  <string name="cpp_plot_2d">2D plot</string>
-  <string name="cpp_plot_3d">3D plot</string>
-  <string name="cpp_plot_functions">Graph functions</string>
-  <string name="cpp_prefs_graph_plot_imag_title">Plot imaginary part of function</string>
-  <string name="cpp_prefs_graph_plot_imag_summary">If checked imaginary part of function will be plotted</string>
-  <string name="cpp_monochrome_line_color_type">Monochrome</string>
-  <string name="cpp_color_map_line_color_type">Color map (only 3D)</string>
-  <string name="cpp_solid_line_style">Solid (-----)</string>
-  <string name="cpp_dashed_line_style">Dashed (- - -)</string>
-  <string name="cpp_dotted_line_style">Dotted (. . .)</string>
-  <string name="cpp_dash_dotted_line_style">Dot-dashed (-.-.-)</string>
-  <string name="cpp_plotter">Function plotter</string>
-  <string name="cpp_plot_screenshot">Capture screenshot</string>
-  <string name="cpp_plot_screenshot_saved">Screenshot successfully saved: %1$s!</string>
-  <string name="cpp_plot_unable_to_save_screenshot">Screenshot cannot be saved as SD card is not mounted. Mount SD
-		card and try again!
+  <string name="cpp_this_change_may_require_reboot">Ця зміна потребує перевантаження пристрою</string>
+  <string name="cpp_plot_2d">графік 2D</string>
+  <string name="cpp_plot_3d">графік 3D</string>
+  <string name="cpp_plot_functions">Графік функцій</string>
+  <string name="cpp_prefs_graph_plot_imag_title">Малювати уявну частину функції</string>
+  <string name="cpp_prefs_graph_plot_imag_summary">Якщо обрано, то уявна участина функції буде намальована</string>
+  <string name="cpp_monochrome_line_color_type">Монотонний</string>
+  <string name="cpp_color_map_line_color_type">Карта кольорів (лише 3D)</string>
+  <string name="cpp_solid_line_style">Суцільна (-----)</string>
+  <string name="cpp_dashed_line_style">Штрихова (- - -)</string>
+  <string name="cpp_dotted_line_style">Пунктирна (. . .)</string>
+  <string name="cpp_dash_dotted_line_style">Штрих-пунктирна (-.-.-)</string>
+  <string name="cpp_plotter">Графобудівник функцій</string>
+  <string name="cpp_plot_screenshot">Зробити знімок екрану</string>
+  <string name="cpp_plot_screenshot_saved">Знімок екрану збережено: %1$s!</string>
+  <string name="cpp_plot_unable_to_save_screenshot">Знімок екрану не можна зберегти, бо карта SD не підключена. Підключіть карту SD
+		і спробуйте знову!
 	</string>
-  <string name="cpp_plot_function_line_color_type">Line color type</string>
-  <string name="cpp_plot_function_line_color">Line color</string>
-  <string name="cpp_plot_function_line_style">Line style</string>
-  <string name="cpp_plot_function_line_width">Line width</string>
-  <string name="cpp_plot_function_settings">Function settings</string>
-  <string name="cpp_function">Function</string>
+  <string name="cpp_plot_function_line_color_type">Тип кольору лінії</string>
+  <string name="cpp_plot_function_line_color">КОлір лінії</string>
+  <string name="cpp_plot_function_line_style">Стиль лінії</string>
+  <string name="cpp_plot_function_line_width">Товщина лінії</string>
+  <string name="cpp_plot_function_settings">Параметри функції</string>
+  <string name="cpp_function">Функція</string>
   <string name="cpp_pinned">Pinned</string>
   <string name="cpp_visible">Visible</string>
-  <string name="cpp_plot_button_text">+plot</string>
-  <string name="cpp_plot_empty_function_error">Unable to plot empty function!</string>
-  <string name="cpp_plot_too_many_variables">Unable to plot: too many variables!</string>
-  <string name="cpp_plot_range">Graph range</string>
-  <string name="cpp_fullscreen">Fullscreen</string>
+  <string name="cpp_plot_button_text">+графік</string>
+  <string name="cpp_plot_empty_function_error">Неможливо намалювати порожню функцію!</string>
+  <string name="cpp_plot_too_many_variables">Неможливо намалювати: надто багато змінних!</string>
+  <string name="cpp_plot_range">Діапазон графіка</string>
+  <string name="cpp_fullscreen">На увесь екран</string>
   <string name="cpp_plot_range_x_min">X Min</string>
   <string name="cpp_plot_range_x_max">X Max</string>
   <string name="cpp_plot_range_y_min">Y Min</string>
   <string name="cpp_plot_range_y_max">Y Max</string>
-  <string name="cpp_invalid_number">Invalid number!</string>
-  <string name="cpp_plot_boundaries_should_differ">Graph boundaries should not be the same!</string>
-  <string name="cpp_apply">Apply</string>
-  <string name="cpp_message">Message</string>
-  <string name="cpp_continue">Continue</string>
-  <string name="cpp_purchase_text">Supporting the project is easy and secure: purchase process is provided by Google
-		and all you need is a properly configured Google account.\n\n
-		Payment information is stored in Google servers with your Google account and you can easily use application on
-		several devices.\n\n
-		By clicking \'Continue\' button you will be redirected to the Google Play app to make the payment.
+  <string name="cpp_invalid_number">Невірне число!</string>
+  <string name="cpp_plot_boundaries_should_differ">Межі графіка не можуть бути однаковими!</string>
+  <string name="cpp_apply">Застосувати</string>
+  <string name="cpp_message">Повідомлення</string>
+  <string name="cpp_continue">Продовжити</string>
+  <string name="cpp_purchase_text">Підтримка проекту є легкою і безпечною: процес купівлі забезпечується Google'ом
+		і вам потрібно лише вірно налаштувати свій обліковий запис на Google.\n\n
+		Інформація про оплату розміщується на серверах Google з вашим обліковим записом Google і ви можете легко використовувати програму
+		на кількох пристроях.\n\n
+		Після натискання кнопки \'Продовжити\' n ви будете перенаправлені на програму Google Play для здійснення покупки.
 	</string>
-  <string name="cpp_purchase_title">Purchase</string>
-  <string name="cpp_purchase_thank_you_text">Thank you for supporting the application!\n\n It might take several
-		minutes until app will be informed about the purchase. You always can check information about the purchase in
-		your Google Account.\n
-		If you have any problems or questions feel free to contact me directly (contacts are available in
-		Main-&gt;Menu-&gt;About)
+  <string name="cpp_purchase_title">Купити</string>
+  <string name="cpp_purchase_thank_you_text">Дякуємо за підтримку програми!\n\n Це займе кілька хвилин,
+		поки програма буде сповіщена про покупку. Ви завжди можете перевірити інформацію про покупку у вашому
+		обліковому записі Google.\n
+		Якщо у вас виникнуть якісь проблеми або питання, то без проблем можете безпосередньо зв'язатися зі мною (контакти завжди доступні
+		у Головна-&gt;Меню-&gt;Про)
 	</string>
 </resources>
